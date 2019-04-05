@@ -1,0 +1,338 @@
+
+/*---------------------------------NAVBAR---------------------------*/
+
+.custom1 a{
+    font-size:30px;
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.custom2{
+    padding: 15px;
+}
+.custom2 a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*-------------------------------HOME--------------------------------*/
+.custom4{
+    padding-top: 150px;
+    padding-bottom: 70px;
+}
+.custom3 p{
+    color:rgb(17, 182, 165);;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.custom3 h1{
+    color:crimson;
+    font-weight:600;
+    font-size: 50px;
+    font-style: italic;
+}
+.custom3 h3{
+    color:rgb(231, 231, 98);
+    font-weight: bold;
+    font-size:23px; 
+    font-style: italic;
+}
+.custom4 li{
+    list-style-type: none;
+}
+.custom4 li i{
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 18px;
+    
+}
+.custom4 a{
+    color:rgb(33, 179, 228);
+}
+.person {
+    border: 20px solid rgb(90, 86, 86);    
+}
+
+@media screen and (max-width: 600px) {
+    .custom3 {
+        padding-top: 220px;
+    }
+}
+
+/*-----------------------ABOUT ME-----------------------*/
+.custom5 p{
+    font-size:18px;
+    color:rgb(231, 231, 98);
+}
+   
+.custom5 h1{
+    font-size: 30px;
+    font-weight: bold;
+    color:  rgb(17, 182, 165);
+}
+
+.custom5 ul li span{
+    color:  rgba(255, 255, 255, 0.774);
+    border: 1px solid turquoise;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.custom5 ul li{
+    list-style-type: none;
+    padding: 5px;
+    display: inline;
+}
+.custom5 ul{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.custom5 button{
+    padding: 10px 50px;
+   background-color: rgb(17, 182, 165);
+   font-size: 18px;
+   color:white;
+   border-radius: 24px;
+   
+}
+.custom5 .btn:hover{
+    background-color: rgb(231, 231, 98);
+    color:white;
+}
+
+/*--------------------------------------SKILLS-----------------------------*/
+
+.custom6 h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(17, 182, 165);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.custom7{
+    padding-bottom: 100px;
+}
+
+.custom7 i{
+   font-size: 40px;
+   font-weight: bold;
+   color:crimson;
+}
+
+.custom7 h3{
+    font-size: 20px;
+   font-weight: bold;
+   color:rgb(33, 179, 228);
+}
+.custom7 p{
+    font-size: 18px;
+    color:rgb(231, 231, 98);
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(75, 69, 69, 0.61);
+    transition: 0.3s;
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(71, 65, 65);   
+}
+
+/*-------------------------------------Progressbar-------------------------------*/
+.custom01 h1{
+    color:  rgb(17, 182, 165);
+    font-weight: bold;
+    padding-bottom: 70px;
+
+}
+
+.custom02 p{
+    color: rgb(33, 179, 228);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.progress-bar1 {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin:0 auto;
+  }
+   
+  .progress-bar1 div {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+   
+  .progress-bar1 div span {
+    position: absolute;
+    font-family: Arial;
+    font-size: 25px;
+    line-height: 75px;
+    height: 75px;
+    width: 75px;
+    left: 12.5px;
+    top: 12.5px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white;
+  }
+   
+  .progress-bar1 .background { background-color: #b3cef6; }
+   
+  .progress-bar1 .rotate {
+    clip: rect(0 50px 100px 0);
+    background-color: #4b86db;
+  }
+   
+  .progress-bar1 .left {
+    clip: rect(0 50px 100px 0);
+    opacity: 1;
+    background-color: #b3cef6;
+  }
+   
+  .progress-bar1 .right {
+    clip: rect(0 50px 100px 0);
+    transform: rotate(180deg);
+    opacity: 0;
+    background-color: #4b86db;
+  }
+   
+  @keyframes
+  toggle {  0% {
+   opacity: 0;
+  }
+   100% {
+   opacity: 1;
+  }
+  }  
+
+  /*--------------------------Portfolio-----------------------*/
+  .img1{
+    width: 350px;
+    height: 250px;
+}
+
+.img2{
+    width: 550px;
+    height: 300px;
+}
+.custom04 h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(17, 182, 165); 
+}
+.custom03 h4{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(33, 179, 228);
+}
+.custom03 p{
+    color:rgb(231, 231, 98);
+}
+.custom09{
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+/*-----------------------------------CONTACT---------------------*/
+
+
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color:rgb(17, 182, 165); 
+    color: white;
+    padding: 12px 50px;
+    border-radius: 18px;
+    border:none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+      background-color:rgb(231, 231, 98);
+  }
+  
+  /* Style the container/contact section */
+  .custom06 {
+    border-radius: 5px;
+    background-color: #615959;
+    padding: 10px;
+  }
+
+  .custom07{
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  
+ 
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .custom07, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+      padding-left:10px;
+      padding-right: 10px;
+    }
+  }
+
+  .custom06 h1{
+      font-weight: bold;
+      color:  rgb(17, 182, 165); 
+  }
+
+/*---------------------------------- FOOTER------------------------*/
+footer {
+    background-color:lightgrey;
+    color:crimson;
+    padding:10px 40px;
+
+}
+footer:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.custom10 {
+    float: left;
+}
+
+.custom11 {
+    float:right;
+    margin-top: 12px;
+}
+.custom11 a i {
+    font-size: 25px;
+    padding: 10px 10px;
+    color: crimson;
+}
+
+
+.custom11 a i:hover {
+    color: rgb(231, 231, 98);
+    background-color:lightgrey;
+    transition: all 0.5s ease;
+}
+
+.custom10 i{
+    color:crimson;
+}
+
+.custom10 p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
